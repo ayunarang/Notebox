@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import DocumentHeader from './DocumentHeader'
-import DocumentInfo from './DocumentInfo.jsx'
-import RichDocumentEditor from './RichDocumentEditor.jsx'
+import DocumentInfo from './DocumentInfo'
+import RichDocumentEditor from './RichDocumentEditor'
 import { Button } from '@/components/ui/button'
 import { MessageCircle, X } from 'lucide-react'
-import CommentBox from './CommentBox.jsx'
+import CommentBox from './CommentBox'
 
 function DocumentEditorSection({ params }) {
 
@@ -14,6 +14,7 @@ function DocumentEditorSection({ params }) {
       <DocumentHeader />
 
       <DocumentInfo params={params} />
+
  
         <RichDocumentEditor params={params} />
  

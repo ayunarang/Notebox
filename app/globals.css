@@ -24,7 +24,7 @@ h6.ce-header{
 .data-radix-popper-content-wrapper{
   --lb-z-index: 50;
 }
-/* Styles all default components */
+
 .lb-root {
   --lb-accent: purple;
   --lb-spacing: 1em;

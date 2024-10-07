@@ -6,7 +6,7 @@ function Logo() {
   return (
     <Link href={'/dashboard'} className='flex items-center gap-2'>
         <Image src={'/logo.png'} alt='logo'
-        width={34} height={34} 
+        width={60} height={60} 
         />
         <h2 className='font-bold text-xl'>Notebox</h2>
     </Link>

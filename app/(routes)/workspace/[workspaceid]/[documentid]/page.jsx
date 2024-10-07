@@ -1,12 +1,14 @@
 "use client"
 import React, { useEffect } from 'react'
 import SideNav from '../../_components/SideNav'
-import DocumentEditorSection from '../../_components/DocumentEditorSection.jsx'
+import DocumentEditorSection from '../../_components/DocumentEditorSection'
+import { Room } from '@/app/Room'
 
 function WorkspaceDocument({params}) {
 
 
   return (
+    <Room params={params}>
     <div>
       <div className=''>
           <SideNav params={params} />
@@ -16,6 +18,7 @@ function WorkspaceDocument({params}) {
         <DocumentEditorSection params={params} />
       </div>
     </div>
+    </Room>
   )
 }
 

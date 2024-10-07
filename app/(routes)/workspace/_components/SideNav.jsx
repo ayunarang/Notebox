@@ -5,13 +5,13 @@ import { db } from '@/config/firebaseConfig'
 import { collection, doc, onSnapshot, query, setDoc, where } from 'firebase/firestore'
 import { Bell, Loader2Icon } from 'lucide-react'
 import React, { useEffect, useState } from 'react'
-import DocumentList from './DocumentList.jsx'
+import DocumentList from './DocumentList'
 import uuid4 from 'uuid4'
 import { useUser } from '@clerk/nextjs'
 import { useRouter } from 'next/navigation'
 import { Progress } from '@/components/ui/progress'
 import { toast } from 'sonner'
-import NotifiationBox from './NotifiationBox.jsx'
+import NotifiationBox from './NotifiationBox'
 
 const MAX_FILE=process.env.NEXT_PUBLIC_MAX_FILE_COUNT;
 
@@ -24,6 +24,7 @@ function SideNav({params}) {
     useEffect(()=>{
         params&&GetDocumentList();
     },[params])
+
 
     const GetDocumentList=()=>{
         const q=query(collection(db,'workspaceDocuments'),
@@ -38,6 +39,10 @@ function SideNav({params}) {
 
     }
 
+
+    /**
+     * Create New Document
+     */
     const CreateNewDocument=async()=>{
 
         if(documentList?.length>=MAX_FILE)
@@ -96,10 +101,11 @@ function SideNav({params}) {
         <DocumentList documentList={documentList}
         params={params} />
 
-
         <div className='absolute bottom-10 w-[85%]'>
         <Progress value={(documentList?.length/MAX_FILE)*100} />
         <h2 className='text-sm font-light my-2'><strong>{documentList?.length}</strong> Out of <strong>{MAX_FILE}</strong> files used</h2>
+        <h2 className='text-sm font-light '>Upgrade your plan for unlimted access</h2>
+       
         </div>
     </div>
   )
