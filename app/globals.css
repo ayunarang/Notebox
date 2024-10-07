@@ -102,3 +102,16 @@ h6.ce-header{
     @apply bg-background text-foreground;
   }
 }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+@media (min-width: 768px) {
+  .ce-block__content, .ce-toolbar__content {
+    max-width: 80% !important; 
+  }
+}

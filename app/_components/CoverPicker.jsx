@@ -23,10 +23,10 @@ function CoverPicker({children,setNewCover}) {
     <DialogTrigger className='w-full'>
         {children}
     </DialogTrigger>
-    <DialogContent>
+    <DialogContent className="h-96 w-96">
       <DialogHeader>
         <DialogTitle>Update Cover</DialogTitle>
-        <DialogDescription>
+        <DialogDescription className="overflow-y-auto h-60">
             <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-3'>
               {CoverOption.map((cover,index)=>(
                 <div key={index} onClick={()=>setSelectedCover(cover?.imageUrl)}

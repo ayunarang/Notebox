@@ -61,7 +61,7 @@ function DocumentInfo({ params }) {
         </div>
       </CoverPicker>
 
-      <div className='absolute ml-10 px-20 mt-[-40px] cursor-pointer'>
+      <div className='absolute md:ml-10 px-20 mt-[-40px] cursor-pointer'>
         <EmojiPickerComponent
           setEmojiIcon={(emoji) => {
             setEmoji(emoji);
@@ -77,12 +77,12 @@ function DocumentInfo({ params }) {
         </EmojiPickerComponent>
       </div>
 
-      <div className='mt-10 px-20 ml-10 p-10'>
+      <div className='mt-10 md:px-20 md:ml-10 p-10'>
         <input
           type='text'
           placeholder='Untitled Document'
           defaultValue={documentInfo?.documentName}
-          className='font-bold text-4xl outline-none'
+          className='font-bold md:text-4xl text-2xl outline-none'
           onBlur={(event) =>
             updateDocumentInfo('documentName', event.target.value)
           }

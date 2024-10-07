@@ -44,7 +44,7 @@ function GenerateAITemplate({setGenerateAIOutput}) {
     
         <Dialog open={open}>
             
-            <DialogContent>
+            <DialogContent className='md:w-full w-96 rounded-lg'>
                 <DialogHeader>
                 <DialogTitle>Generate AI Template</DialogTitle>
                 <DialogDescription>

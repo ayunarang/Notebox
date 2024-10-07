@@ -8,7 +8,7 @@ function Logo() {
         <Image src={'/logo.png'} alt='logo'
         width={60} height={60} 
         />
-        <h2 className='font-bold text-xl'>Notebox</h2>
+        <h2 className='font-bold text-xl hidden md:block sm:block'>Notebox</h2>
     </Link>
   )
 }

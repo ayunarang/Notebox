@@ -55,7 +55,7 @@ function CreateWorkspace() {
 
     }
     return (
-        <div className='p-10 md:px-36 lg:px-64 xl:px-96 py-28'>
+        <div className='p-10 md:px-36 lg:px-64 xl:px-96 md:py-28'>
             <div className='shadow-2xl rounded-xl'>
                 <CoverPicker setNewCover={(v) => setCoverImage(v)}>
                     <div className='relative group cursor-pointer'>
@@ -74,7 +74,7 @@ function CreateWorkspace() {
                 </CoverPicker>
 
 
-                <div className='p-12'>
+                <div className='p-5 md:p-12'>
                     <h2 className='font-medium text-xl'>Create a new workspace</h2>
                     <h2 className='text-sm mt-2'>This is a shared space where you can collaborate wth your team.
                         You can always rename it later.
@@ -93,7 +93,9 @@ function CreateWorkspace() {
                         <Button disabled={!workspaceName?.length || loading}
                             onClick={OnCreateWorkspace}
                         >Create {loading && <Loader2Icon className='animate-spin ml-2' />} </Button>
-                        <Button variant="outline">Cancel</Button>
+                        <Button variant="outline"
+                        onClick={() => router.back()}
+                        >Cancel</Button>
 
                     </div>
                 </div>
