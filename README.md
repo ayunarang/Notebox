@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Notebox 🚀
 
-## Getting Started
+Notebox is a modern, feature-rich note-taking application designed to enhance your productivity and creativity. Whether you’re organizing personal notes  or brainstorming ideas, Notebox provides an intuitive and user-friendly platform that allows you to manage all your notes efficiently With a sleek interface, responsive design, and powerful tools.
 
-First, run the development server:
+![Home Image](./assets/homeview.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features ✨
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. One-Click Sign In with Clerk
+Notebox leverages Clerk for fast and secure authentication. Sign in with just one click and get instant access to your dashboard where you can manage and create your notes effortlessly.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+![Login Image](./assets/loginview.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Custom Workspaces
+After signing in, users can create personalized workspaces, giving each workspace a unique cover image, name, and emoji. Organize your workspaces by projects, categories, or any method that suits your workflow.
 
-## Learn More
+![Dashboard Image](./assets/dashboardview.png)
+![Create workspace Image](./assets/createworkspace.png)
 
-To learn more about Next.js, take a look at the following resources:
+4. AI-Powered Content Generation
+Notebox comes with an integrated AI feature, powered by Google Gemini, that allows you to generate content effortlessly. Simply provide a prompt, and the AI will craft a response that is automatically added to your document, helping you brainstorm ideas, expand on concepts, or generate creative content.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![workspace Image](./assets/workspacedocument.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+6. Rich Text Editor Powered by EditorJS
+Each workspace contains documents where you can take detailed notes using EditorJS. Enjoy powerful rich text formatting features including:
 
-## Deploy on Vercel
+- Headings to structure your content.
+- Tables for organizing data.
+- Bullet points and numbered lists to keep track of tasks or ideas.
+- Code snippets for developers.
+- Images to illustrate your notes visually.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![workspace Image](./assets/workspace2.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+6. Collaboration and Communication
+Notebox allows users to tag and comment on documents. By tagging other users in the database, you can easily start discussions within your workspace. Notifications, powered by Liveblocks, ensure real-time comments.
+
+7. Responsive Design
+Notebox is very responsive across devices.
+
+https://github.com/user-attachments/assets/76c8b7cd-5e9a-4049-8e19-8b113dc8e950
+
+## Technologies Used 🚀
+
+- Next.js: For building a fast, scalable, and responsive front end.
+- Firebase: For real-time database and backend services.
+- Clerk: For secure, simple user authentication.
+- EditorJS: For rich text formatting and seamless content creation.
+- Google Gemini: For AI-powered content generation.
+- Liveblocks: For real-time collaboration and notifications.
+
+## Demo 🎨
+
+notebox-mu.vercel.app/
