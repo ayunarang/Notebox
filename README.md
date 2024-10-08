@@ -6,23 +6,23 @@ Notebox is a modern, feature-rich note-taking application designed to enhance yo
 
 ## Features ✨
 
-1. One-Click Sign In with Clerk
+1. One-Click Sign In with Clerk  
 Notebox leverages Clerk for fast and secure authentication. Sign in with just one click and get instant access to your dashboard where you can manage and create your notes effortlessly.
 
 ![Login Image](./assets/loginview.png)
 
-2. Custom Workspaces
+2. Custom Workspaces  
 After signing in, users can create personalized workspaces, giving each workspace a unique cover image, name, and emoji. Organize your workspaces by projects, categories, or any method that suits your workflow.
 
 ![Dashboard Image](./assets/dashboardview.png)
 ![Create workspace Image](./assets/createworkspace.png)
 
-3. AI-Powered Content Generation
+3. AI-Powered Content Generation  
 Notebox comes with an integrated AI feature, powered by Google Gemini, that allows you to generate content effortlessly. Simply provide a prompt, and the AI will craft a response that is automatically added to your document, helping you brainstorm ideas and expand on concepts.
 
 ![workspace Image](./assets/workspacedocument.png)
 
-4. Rich Text Editor Powered by EditorJS
+4. Rich Text Editor Powered by EditorJS  
 Each workspace contains documents where you can take detailed notes using EditorJS. Enjoy powerful rich text formatting features including:
 
 - Headings to structure your content.
@@ -33,10 +33,10 @@ Each workspace contains documents where you can take detailed notes using Editor
 
 ![workspace Image](./assets/workspace2.png)
 
-5. Collaboration and Communication
+5. Collaboration and Communication  
 Notebox allows users to tag and comment on documents. By tagging other users in the database, you can easily start discussions within your workspace. Notifications, powered by Liveblocks, ensure real-time comments.
 
-6. Responsive Design
+6. Responsive Design  
 Notebox is very responsive across devices.
 
 https://github.com/user-attachments/assets/76c8b7cd-5e9a-4049-8e19-8b113dc8e950
@@ -52,4 +52,4 @@ https://github.com/user-attachments/assets/76c8b7cd-5e9a-4049-8e19-8b113dc8e950
 
 ## Demo 🎨
 
-notebox-mu.vercel.app/
+[Visit Notebox](https://notebox-mu.vercel.app/)
