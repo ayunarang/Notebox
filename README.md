@@ -88,6 +88,7 @@ https://github.com/user-attachments/assets/76c8b7cd-5e9a-4049-8e19-8b113dc8e950
 ## ⭐ **Like This Project? Support & Connect!**
 If you find this project useful, don’t forget to **⭐ Star** the repo!
 
-More about me:
-💻 **Portfolio:** [@yourportfolio](https://yourportfolio.com)  
-🔗 **LinkedIn:** [@yourlinkedin](https://linkedin.com/in/yourlinkedin)
+More about me:  
+💻 **Portfolio:** [@ayunarang](https://ayushinarang.vercel.app) 
+🔗 **LinkedIn:** [@ayushinarang](https://linkedin.com/in/ayushinarang)  
+
