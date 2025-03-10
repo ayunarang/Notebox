@@ -2,7 +2,7 @@
   <img src="./assets/noteboxlogo.png" alt="Notebox Logo" width="450px"/>
 </p>
 
-# Notebox – Modern Note-Taking Application
+# Notebox – Note-Taking Application
 
 > Notebox is a modern, feature-rich note-taking application designed to enhance productivity and creativity. Whether you’re organizing personal notes or brainstorming ideas, Notebox provides an intuitive and user-friendly platform to manage all your notes efficiently.
 
