@@ -1,55 +1,93 @@
-## Notebox 🚀
+<p align="center">
+  <img src="./assets/noteboxlogo.png" alt="Notebox Logo" width="450px"/>
+</p>
 
-Notebox is a modern, feature-rich note-taking application designed to enhance your productivity and creativity. Whether you’re organizing personal notes  or brainstorming ideas, Notebox provides an intuitive and user-friendly platform that allows you to manage all your notes efficiently With a sleek interface, responsive design, and powerful tools.
+# Notebox – Modern Note-Taking Application
 
-![Home Image](./assets/homeview.png)
+> Notebox is a modern, feature-rich note-taking application designed to enhance productivity and creativity. Whether you’re organizing personal notes or brainstorming ideas, Notebox provides an intuitive and user-friendly platform to manage all your notes efficiently.
 
-## Features ✨
+**Live Demo:** [Notebox](https://notebox-mu.vercel.app/)
 
-1. One-Click Sign In with Clerk  
-Notebox leverages Clerk for fast and secure authentication. Sign in with just one click and get instant access to your dashboard where you can manage and create your notes effortlessly.
+**Tech Stack:**
 
+<p>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
+  <img src="https://img.shields.io/badge/Clerk-512BD4?style=for-the-badge&logo=clerk&logoColor=white" />
+  <img src="https://img.shields.io/badge/EditorJS-000000?style=for-the-badge&logo=editor.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/Liveblocks-FF5733?style=for-the-badge&logo=liveblocks&logoColor=white" />
+</p>
+
+## Features
+
+### One-Click Sign In with Clerk
+Notebox leverages Clerk for fast and secure authentication. Sign in with just one click and get instant access to your dashboard where you can manage and create notes effortlessly.
+
+**Screenshot:**
 ![Login Image](./assets/loginview.png)
 
-2. Custom Workspaces  
-After signing in, users can create personalized workspaces, giving each workspace a unique cover image, name, and emoji. Organize your workspaces by projects, categories, or any method that suits your workflow.
+---
 
+### Custom Workspaces
+After signing in, users can create personalized workspaces, assigning each a unique cover image, name, and emoji. Organize workspaces by projects, categories, or any method that suits your workflow.
+
+**Screenshots:**
 ![Dashboard Image](./assets/dashboardview.png)
-![Create workspace Image](./assets/createworkspace.png)
+![Create Workspace Image](./assets/createworkspace.png)
 
-3. AI-Powered Content Generation  
-Notebox comes with an integrated AI feature, powered by Google Gemini, that allows you to generate content effortlessly. Simply provide a prompt, and the AI will craft a response that is automatically added to your document, helping you brainstorm ideas and expand on concepts.
+---
 
-![workspace Image](./assets/workspacedocument.png)
+### AI-Powered Content Generation
+Integrated AI, powered by Google Gemini, allows users to generate content effortlessly. Simply provide a prompt, and AI will craft a response automatically added to your document.
 
-4. Rich Text Editor Powered by EditorJS  
-Each workspace contains documents where you can take detailed notes using EditorJS. Enjoy powerful rich text formatting features including:
+**Screenshot:**
+![Workspace Image](./assets/workspacedocument.png)
 
-- Headings to structure your content.
-- Tables for organizing data.
-- Bullet points.
-- Code snippets for developers.
-- Images to illustrate your notes visually and much more.
+---
 
-![workspace Image](./assets/workspace2.png)
+### Rich Text Editor Powered by EditorJS
+Each workspace contains documents where users can take detailed notes using EditorJS. Enjoy powerful rich text formatting, including:
 
-5. Collaboration and Communication  
-Notebox allows users to tag and comment on documents. By tagging other users in the database, you can easily start discussions within your workspace. Notifications, powered by Liveblocks, ensure real-time comments.
+- Headings to structure content
+- Tables for organizing data
+- Bullet points
+- Code snippets for developers
+- Image embedding
 
-6. Responsive Design  
-Notebox is very responsive across devices.
+**Screenshot:**
+![Workspace Image](./assets/workspace2.png)
+
+---
+
+### Collaboration and Communication
+Users can tag and comment on documents. By tagging other users in the database, discussions within workspaces become seamless. Notifications, powered by Liveblocks, ensure real-time updates.
+
+---
+
+### Responsive Design
+Optimized for all devices including mobile, tablet, and desktop for a seamless experience.
 
 https://github.com/user-attachments/assets/76c8b7cd-5e9a-4049-8e19-8b113dc8e950
 
-## Technologies Used 🚀
+---
 
-- Next.js: For building a fast, scalable, and responsive front end.
-- Firebase: For real-time database and backend services.
-- Clerk: For secure, simple user authentication.
-- EditorJS: For rich text formatting and seamless content creation.
-- Google Gemini: For AI-powered content generation.
-- Liveblocks: For real-time collaboration and notifications.
+## Technologies Used
 
-## Demo 🎨
+| Category           | Tech Stack            |
+|-------------------|----------------------|
+| Frontend         | Next.js               |
+| Backend         | Firebase               |
+| Authentication   | Clerk                  |
+| Text Editor     | EditorJS               |
+| AI Integration  | Google Gemini          |
+| Collaboration   | Liveblocks             |
 
-[Visit Notebox](https://notebox-mu.vercel.app/)
+---
+
+## ⭐ **Like This Project? Support & Connect!**
+If you find this project useful, don’t forget to **⭐ Star** the repo!
+
+More about me:
+💻 **Portfolio:** [@yourportfolio](https://yourportfolio.com)  
+🔗 **LinkedIn:** [@yourlinkedin](https://linkedin.com/in/yourlinkedin)
